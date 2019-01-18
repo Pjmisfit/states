@@ -1,0 +1,102 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+	overflow-x: hidden;
+}
+svg{
+	background: #34495e;
+  	display: block;
+  	width: 100vw;
+ 	height: 100vh;
+}
+.container{
+	position: absolute;
+	-webkit-transform: translateX(-50%);
+	        transform: translateX(-50%);
+	left: 50%;
+	/*top: 20px;*/
+	width: 100%;
+	/*overflow: hidden;*/
+}
+.text{
+	fill: #EEF;
+	cursor: default;
+}
+.land{
+	fill: #696e81;
+	fill-opacity: 1;
+	stroke:white;
+	stroke-opacity: 1;
+	stroke-width:0.5;
+}
+.land:hover{
+	stroke: #a9c9e3;
+	stroke-width: 3;
+	cursor: pointer;
+	/*fill: #3f3f4f;*/
+	-webkit-transition: 1.5s;
+	transition: 1.5s;
+}
+
+#NG-AB, #NG-EN, #NG-FC, #NG-RI, #NG-IM, #NG-LA, #NG-KN, #NG-OG, #NG-KD{
+	fill: #28b89d;
+	-webkit-transition: 1.5s;
+	transition: 1.5s;
+}
+
+#NG-AB:hover, #NG-EN:hover, #NG-FC:hover, #NG-RI:hover, #NG-IM:hover, #NG-LA:hover, #NG-KN:hover, #NG-OG:hover, #NG-KD:hover{
+	stroke: #FFE;
+	stroke-width: 2.5;
+	cursor: pointer;
+	-webkit-transition: 1.5s;
+	transition: 1.5s;
+}
+
+#NG-AN{
+	fill: #1f849f;
+	-webkit-transition: 1.5s;
+	transition: 1.5s;
+	background: url() no-repeat;
+}
+#NG-AN:hover{
+	stroke: orange;
+	stroke-width: 3;
+	cursor: pointer;
+	-webkit-transition: 1.5s;
+	transition: 1.5s;
+}
+nav{
+	position: relative;
+	padding: 30px;
+	background: #193246;
+}
+.er{
+	position: absolute;
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	        transform: translateX(-50%);
+	/*width: 150px;*/
+	/*margin: auto;*/
+	display: inline-block;
+	top: 0;
+	color: #EEF;
+	/*left: 10px;*/
+	font-family: sans-serif;
+	font-size: 15px;
+	font-weight: 100;
+	/* border: 1px solid #EEF; */
+	border-radius: 4px;
+	/*padding: 20px;*/
+	padding: 10px 11px 20px 11px;
+	cursor: default;
+	text-align: center;
+}
+.hovsee{
+	font-size: 11px;
+	color: #a9c9e3;
+}
